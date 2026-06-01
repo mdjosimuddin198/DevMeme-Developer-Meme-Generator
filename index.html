@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevMeme — Developer Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <span class="logo">💻</span>
+        <span class="brand-text">DevMeme</span>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+      <!-- Controls Section -->
+      <section class="controls-section">
+        <h2 class="section-title">Create Your Meme</h2>
+
+        <!-- Generate Button -->
+        <button class="btn btn-primary" id="generateBtn">
+          <span class="btn-icon">🎲</span>
+          Generate Random Meme
+        </button>
+
+        <!-- Text Inputs -->
+        <div class="input-group">
+          <label for="topText">Top Text</label>
+          <input
+            type="text"
+            id="topText"
+            placeholder="Enter top text..."
+            maxlength="100"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="bottomText">Bottom Text</label>
+          <input
+            type="text"
+            id="bottomText"
+            placeholder="Enter bottom text..."
+            maxlength="100"
+          />
+        </div>
+
+        <!-- Download Button -->
+        <button class="btn btn-secondary" id="downloadBtn">
+          <span class="btn-icon">📥</span>
+          Download Meme
+        </button>
+
+        <!-- Upload Button (Bonus) -->
+        <button class="btn btn-outline" id="uploadBtn">
+          <span class="btn-icon">📤</span>
+          Upload Custom Image
+        </button>
+        <input type="file" id="fileInput" accept="image/*" hidden />
+
+        <!-- Category Filter (Bonus) -->
+        <div class="category-filter">
+          <label>Category:</label>
+          <div class="category-buttons">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="javascript">JS</button>
+            <button class="category-btn" data-category="css">CSS</button>
+            <button class="category-btn" data-category="react">React</button>
+            <button class="category-btn" data-category="backend">
+              Backend
+            </button>
+            <button class="category-btn" data-category="debugging">
+              Debug
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Preview Section -->
+      <section class="preview-section">
+        <h2 class="section-title">Live Preview</h2>
+        <div class="meme-preview" id="memePreview">
+          <div class="meme-text top-text" id="previewTopText"></div>
+          <img
+            src=""
+            alt="Meme Template"
+            id="memeImage"
+            crossorigin="anonymous"
+          />
+          <div class="meme-text bottom-text" id="previewBottomText"></div>
+        </div>
+        <p class="meme-title" id="memeTitleDisplay"></p>
+      </section>
+    </main>
+
+    <!-- Template Gallery -->
+    <section class="gallery-section">
+      <h2 class="section-title">Meme Templates</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Templates will be dynamically inserted -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with 💜 for developers who need a laugh</p>
+      <p class="footer-note">
+        Click a template to use it • Generate for random fun
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
