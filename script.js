@@ -31,7 +31,8 @@ const memes = [
   },
   {
     id: 4,
-    image: "https://i.imgflip.com/1g8my4.jpg",
+    image:
+      "https://i.pinimg.com/736x/e9/46/cc/e946cc4f0bc0101cde73673bead05e11.jpg",
     title: "Two Buttons",
     category: "debugging",
     defaultTop: "Fix one bug",
@@ -39,7 +40,8 @@ const memes = [
   },
   {
     id: 5,
-    image: "https://i.imgflip.com/26j0vt.jpg",
+    image:
+      "https://i.pinimg.com/736x/c9/63/e4/c963e4ad480a34062fe94edf5b49121f.jpg",
     title: "Change My Mind",
     category: "css",
     defaultTop: "CSS is easy",
@@ -47,7 +49,8 @@ const memes = [
   },
   {
     id: 6,
-    image: "https://i.imgflip.com/1ur4ra.jpg",
+    image:
+      "https://i.pinimg.com/736x/5b/3c/27/5b3c27c6d3eaaeb2a57dd76a5d8f9c55.jpg",
     title: "This is Fine",
     category: "debugging",
     defaultTop: "Production is on fire",
@@ -63,7 +66,8 @@ const memes = [
   },
   {
     id: 8,
-    image: "https://i.imgflip.com/32k2wn.jpg",
+    image:
+      "https://i.pinimg.com/736x/b2/06/be/b206bef421695ba47610b57945146da2.jpg",
     title: "Stonks",
     category: "backend",
     defaultTop: "Code with no comments",
@@ -71,7 +75,8 @@ const memes = [
   },
   {
     id: 9,
-    image: "https://i.imgflip.com/1ij6r4.jpg",
+    image:
+      "https://i.pinimg.com/736x/2a/a2/ce/2aa2ce7f9afa412b611db7c7e686f0ee.jpg",
     title: "One Does Not Simply",
     category: "debugging",
     defaultTop: "One does not simply",
@@ -79,7 +84,8 @@ const memes = [
   },
   {
     id: 10,
-    image: "https://i.imgflip.com/9ehk.jpg",
+    image:
+      "https://i.pinimg.com/736x/49/0e/d2/490ed29e35334af002cbd34c41ad7e75.jpg",
     title: "Success Kid",
     category: "javascript",
     defaultTop: "Wrote code without errors",
@@ -95,7 +101,8 @@ const memes = [
   },
   {
     id: 12,
-    image: "https://i.imgflip.com/2dkcg.jpg",
+    image:
+      "https://i.pinimg.com/736x/17/34/67/1734670ebb106a42af5677f77b33a900.jpg",
     title: "Y U No",
     category: "css",
     defaultTop: "Y U NO",
@@ -111,7 +118,8 @@ const memes = [
   },
   {
     id: 14,
-    image: "https://i.imgflip.com/3704qz.jpg",
+    image:
+      "https://i.pinimg.com/736x/2d/ad/81/2dad811db92c35ffceb5ee0a54a3676e.jpg",
     title: "Bernie Sanders",
     category: "react",
     defaultTop: "I'm once again asking",
@@ -119,7 +127,8 @@ const memes = [
   },
   {
     id: 15,
-    image: "https://i.imgflip.com/2r4191.jpg",
+    image:
+      "https://i.pinimg.com/736x/51/29/e7/5129e704b959add4f901fec0c85a7538.jpg",
     title: "Mocking Spongebob",
     category: "css",
     defaultTop: "It's just CSS they said",
@@ -127,7 +136,8 @@ const memes = [
   },
   {
     id: 16,
-    image: "https://i.imgflip.com/34vdsf.jpg",
+    image:
+      "https://i.pinimg.com/736x/dd/d1/a9/ddd1a91c60373a29f5cb8ea17f06774a.jpg",
     title: "Always Has Been",
     category: "backend",
     defaultTop: "Wait, it's all backend bugs?",
@@ -135,7 +145,8 @@ const memes = [
   },
   {
     id: 17,
-    image: "https://i.imgflip.com/1c1wwb.jpg",
+    image:
+      "https://i.pinimg.com/736x/59/4f/d5/594fd5302420c8a7d74445d93d7e00c9.jpg",
     title: "First World Problems",
     category: "react",
     defaultTop: "My npm package has 2 stars",
@@ -143,7 +154,8 @@ const memes = [
   },
   {
     id: 18,
-    image: "https://i.imgflip.com/2g59wd.jpg",
+    image:
+      "https://i.pinimg.com/736x/4a/a5/95/4aa5956b7257265bab56ab019006df53.jpg",
     title: "Roll Safe",
     category: "debugging",
     defaultTop: "Can't have bugs",
@@ -159,7 +171,8 @@ const memes = [
   },
   {
     id: 20,
-    image: "https://i.imgflip.com/42i70c.jpg",
+    image:
+      "https://i.pinimg.com/736x/e0/bc/70/e0bc706eeaf6ff537c4f61f2b5fdaae6.jpg",
     title: "Disaster Girl",
     category: "backend",
     defaultTop: "Deletes production database",
